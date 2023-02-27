@@ -13,6 +13,9 @@ body {
     background-color: white;
     margin: 20px;
     padding: 10px;
+}
+
+nav {
     overflow-x: hidden;
 }
 
@@ -288,7 +291,7 @@ h2 {
     align-items: center;
 }
 
-.cuadros{
+.cuadros {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: bolder;
@@ -440,12 +443,12 @@ h2 {
     align-items: flex-start;
 }
 
-.celebridades img{
+.celebridades img {
     width: 400px;
     height: 200px;
 }
 
-.trabajo{
+.trabajo {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: bolder;
@@ -691,15 +694,13 @@ textarea {
 
 @media screen and (max-width: 576px) {
 
-body {
-    background-color: white;
-    margin: 20px;
-    padding: 10px;
-    overflow-x: hidden;
-}
+    nav {
+        overflow-x: hidden;
+    }
 
 
-/* Index */
+
+    /* Index */
 
     .titulo1 {
         background-color: white;
@@ -710,12 +711,12 @@ body {
         align-items: center;
         margin: auto;
         padding: 30px;
-}
+    }
 
     .titulo1 img {
         width: 300px;
         height: 125px;
-}
+    }
 
     .imagenIndex {
         width: 350px;
@@ -724,10 +725,10 @@ body {
         justify-content: space-between;
         align-items: center;
         padding: 10px;
-}
+    }
 
 
-    .imagenIndex img{
+    .imagenIndex img {
         width: 350px;
         height: auto;
     }
@@ -735,102 +736,102 @@ body {
     .imagenIndex img {
         width: 350px;
         height: 200px;
-}
+    }
 
 
-/* History */
+    /* History */
 
-.titulo2 {
+    .titulo2 {
 
-    width: 500px;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: 30px;
-}
+        width: 500px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 30px;
+    }
 
-.titulo2 img {
-    width: 400px;
-    height: 100px;
-}
+    .titulo2 img {
+        width: 400px;
+        height: 100px;
+    }
 
-.contenedor {
-    display: flex;
-}
+    .contenedor {
+        display: flex;
+    }
 
-.biografia {
-    background-color: white;
-    font-family: 'Dosis', sans-serif;
-    text-align: left;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 20px;
-    letter-spacing: 1px;
-    color: black;
-}
+    .biografia {
+        background-color: white;
+        font-family: 'Dosis', sans-serif;
+        text-align: left;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        color: black;
+    }
 
-.biografia2 {
-    text-indent: 40px;
-}
+    .biografia2 {
+        text-indent: 40px;
+    }
 
-p {
+    p {
 
-    font-family: 'Dosis', sans-serif;
-    font-style: normal;
-    font-weight: bolder;
-    text-align: left;
-    font-size: 10px;
-    line-height: 25px;
-    letter-spacing: 1px;
-    list-style-type: none;
-    margin: 1px;
-}
+        font-family: 'Dosis', sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        text-align: left;
+        font-size: 10px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        list-style-type: none;
+        margin: 1px;
+    }
 
-h2 {
+    h2 {
 
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: bolder;
-}
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+    }
 
-.imagenBiografia {
-    width: 300px;
-    height: auto;
-    margin: auto;
-    padding: 25px;
-    border-radius: 50px;
-}
+    .imagenBiografia {
+        width: 300px;
+        height: auto;
+        margin: auto;
+        padding: 25px;
+        border-radius: 50px;
+    }
 
-.imagenBiografia2 {
-    width: 300px;
-    height: auto;
-    margin: auto;
-    padding: 25px;
-    justify-items: center;
-    border-radius: 50px;
-}
+    .imagenBiografia2 {
+        width: 300px;
+        height: auto;
+        margin: auto;
+        padding: 25px;
+        justify-items: center;
+        border-radius: 50px;
+    }
 
-/* Art */
+    /* Art */
 
-.shop {
-    background-color: white;
-    width: 400px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    align-items: center;
-}
+    .shop {
+        background-color: white;
+        width: 400px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+    }
 
-.shop img {
-    width: 200px;
-    height: 100px;
-    align-items: center;
-}
+    .shop img {
+        width: 200px;
+        height: 100px;
+        align-items: center;
+    }
 
 
     .gridPadre {
@@ -850,25 +851,25 @@ h2 {
         justify-content: center;
     }
 
-/* Celebridades */
+    /* Celebridades */
 
-.celebridades {
-    background-color: white;
-    width: 310px;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 30px;
-    align-items: flex-start;
-}
+    .celebridades {
+        background-color: white;
+        width: 310px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        padding: 30px;
+        align-items: flex-start;
+    }
 
-.celebridades img{
-    width: 400px;
-    height: 200px;
-}
+    .celebridades img {
+        width: 400px;
+        height: 200px;
+    }
 
-.gridPadre2 {
+    .gridPadre2 {
         grid-template-columns: 80vw;
         grid-template-rows: auto auto auto;
         grid-template-areas:
@@ -878,87 +879,84 @@ h2 {
             "celecuatro"
             "celecinco"
             "celeseis"
-            "celesiete" 
-            "celeocho" 
+            "celesiete"
+            "celeocho"
             "celenueve"
-            "celediez" 
-            "celeonce" 
+            "celediez"
+            "celeonce"
             "celedoce";
-            justify-items: center;
-}
+        justify-items: center;
+    }
 
-.contacto {
-    background-color: white;
-    width: 300px;
-    height: 110px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    padding: 30px;
-}
+    .contacto {
+        background-color: white;
+        width: 300px;
+        height: 110px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        padding: 30px;
+    }
 
-.contacto img {
-    width: 300px;
-    height: 100px;
-    align-items: center;
-}
+    .contacto img {
+        width: 300px;
+        height: 100px;
+        align-items: center;
+    }
 
-section {
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: bolder;
-    text-align: left;
-    font-size: 18px;
-    line-height: 20px;
-    letter-spacing: 1px;
-    list-style-type: none;
-    padding: 30px;
-}
+    section {
+        font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        text-align: left;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        list-style-type: none;
+        padding: 30px;
+    }
 
-.contactoUno {
-    padding: 10px 20px;
-    width: 250px;
-    height: 300px;
-    background-position: center;
-}
+    .contactoUno {
+        padding: 10px 20px;
+        width: 250px;
+        height: 300px;
+        background-position: center;
+    }
 
-input {
-    width: 50%;
-    margin-bottom: 20px;
-    padding: 10px;
-    box-sizing: border-box;
-    font-size: 15px;
-}
+    input {
+        width: 50%;
+        margin-bottom: 20px;
+        padding: 10px;
+        box-sizing: border-box;
+        font-size: 15px;
+    }
 
-textarea {
-    min-height: 100px;
-    min-width: 450px;
-    font-size: 15px;
-}
+    textarea {
+        min-height: 100px;
+        min-width: 450px;
+        font-size: 15px;
+    }
 
-.boton {
-    margin: 10px;
-    padding: auto;
-    width: 20px;
-}
+    .boton {
+        margin: 10px;
+        padding: auto;
+        width: 20px;
+    }
 
-.danipintando {
-    width: 300px;
-    height: 500px;
-    margin: auto;
-    border-radius: 50px;
-}
+    .danipintando {
+        width: 300px;
+        height: 500px;
+        margin: auto;
+        border-radius: 50px;
+    }
 }
 
 @media screen and (max-width: 360px) {
 
-    body {
-    background-color: white;
-    margin: 20px;
-    padding: 10px;
-    overflow-x: hidden;
-}
+    nav {
+        overflow-x: hidden;
+    }
 
     .titulo1 {
         background-color: white;
@@ -969,12 +967,12 @@ textarea {
         align-items: center;
         margin: auto;
         padding: 30px;
-}
+    }
 
     .titulo1 img {
         width: 300px;
         height: 125px;
-}
+    }
 
     .imagenIndex {
         width: 350px;
@@ -983,87 +981,87 @@ textarea {
         justify-content: space-between;
         align-items: center;
         padding: 10px;
-}
+    }
 
     .imagenIndex img {
         width: 350px;
         height: 200px;
-}
+    }
 
-/* historia */
+    /* historia */
 
-.titulo2 {
+    .titulo2 {
 
-    width: 500px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: 30px;
-}
+        width: 500px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 30px;
+    }
 
-.titulo2 img {
-    width: 350px;
-    height: 200px;
-}
+    .titulo2 img {
+        width: 350px;
+        height: 200px;
+    }
 
-.contenedor {
-    display: flex;
-}
+    .contenedor {
+        display: flex;
+    }
 
-.biografia {
-    background-color: white;
-    font-family: 'Dosis', sans-serif;
-    text-align: left;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 20px;
-    letter-spacing: 1px;
-    color: black;
-}
+    .biografia {
+        background-color: white;
+        font-family: 'Dosis', sans-serif;
+        text-align: left;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        color: black;
+    }
 
-.biografia2 {
-    text-indent: 40px;
-}
+    .biografia2 {
+        text-indent: 40px;
+    }
 
-p {
+    p {
 
-    font-family: 'Dosis', sans-serif;
-    font-style: normal;
-    font-weight: bolder;
-    text-align: left;
-    font-size: 10px;
-    line-height: 25px;
-    letter-spacing: 1px;
-    list-style-type: none;
-    margin: 1px;
-}
+        font-family: 'Dosis', sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        text-align: left;
+        font-size: 10px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        list-style-type: none;
+        margin: 1px;
+    }
 
-h2 {
+    h2 {
 
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: bolder;
-}
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+    }
 
-.imagenBiografia {
-    width: 300px;
-    height: auto;
-    margin: auto;
-    padding: 25px;
-    border-radius: 50px;
-}
+    .imagenBiografia {
+        width: 300px;
+        height: auto;
+        margin: auto;
+        padding: 25px;
+        border-radius: 50px;
+    }
 
-.imagenBiografia2 {
-    width: 300px;
-    height: auto;
-    margin: auto;
-    padding: 25px;
-    justify-items: center;
-    border-radius: 50px;
-}
+    .imagenBiografia2 {
+        width: 300px;
+        height: auto;
+        margin: auto;
+        padding: 25px;
+        justify-items: center;
+        border-radius: 50px;
+    }
 
 }
