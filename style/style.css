@@ -1,0 +1,1040 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+}
+
+ul {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: right;
+    text-decoration-line: none;
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    list-style-type: none;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    display: inline-block;
+}
+
+/* Index */
+
+.titulo1 {
+    background-color: white;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.titulo1 img {
+    width: 600px;
+    height: 175px;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding: 30px;
+    margin: 20px;
+}
+
+.bienvenido {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding: 30px;
+    margin: 20px;
+}
+
+.imagenIndex {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.imagenIndex img {
+    width: 750px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+footer {
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.arriba {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    text-decoration-line: none;
+}
+
+.montesanoLogo {
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: 75px;
+    padding: 10px;
+}
+
+.logo:hover {
+    transform: rotate(360deg) scale(3);
+    transition-property: all;
+    transition-duration: 500ms;
+}
+
+.instagram {
+    margin: auto;
+    width: 90px;
+    height: 90px;
+    padding: 15px 20px;
+}
+
+.twitter {
+    margin: auto;
+    width: 90px;
+    height: 90px;
+    padding: 15px 20px;
+}
+
+.youtube {
+    margin: auto;
+    width: 90px;
+    height: 90px;
+    padding: 15px 20px;
+}
+
+.redesSociales {
+    padding: 30px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+/* Biografía */
+
+.titulo2 {
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.titulo2 img {
+    width: 500px;
+    height: 150px;
+}
+
+.contenedor {
+    background-color: white;
+    padding: 30px;
+    margin: 15px;
+    display: flex;
+}
+
+.suTrabajo {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding: 30px;
+    margin: 20px;
+}
+
+.biografia {
+    background-color: white;
+    padding: 50px;
+    margin: 20px;
+    font-family: 'Dosis', sans-serif;
+    text-align: left;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding: 20px;
+    color: black;
+}
+
+.biografia2 {
+    text-indent: 40px;
+    margin: 10px;
+}
+
+p {
+    padding: auto;
+    margin: 15px;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    margin: 1px;
+}
+
+h2 {
+    padding: 30px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.imagenBiografia {
+    width: 700px;
+    height: 1000px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+.imagenBiografia2 {
+    width: 700px;
+    height: 375px;
+    margin: auto;
+    padding: 25px;
+    justify-items: center;
+    border-radius: 50px;
+}
+
+/* Shop */
+
+.shop {
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 30px;
+    align-items: flex-start;
+}
+
+.shop img {
+    width: 400px;
+    height: 175px;
+    align-items: center;
+}
+
+.cuadros{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding: 30px;
+    margin: 20px;
+}
+
+.gridPadre {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    grid-template-areas:
+        "cuadrouno cuadrodos cuadrotres"
+        "cuadrocuatro cuadrocinco cuadroseis"
+        "cuadrosiete cuadroocho cuadronueve";
+}
+
+.cuadro1 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 40px;
+    grid-area: cuadrouno;
+}
+
+.cuadro1:hover {
+    transition-property: all;
+    transform: scale(2);
+    transition-duration: 5s;
+}
+
+.cuadro2 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 40px;
+    grid-area: cuadrodos;
+}
+
+.cuadro2:hover {
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 5s;
+}
+
+.cuadro3 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 40px;
+    grid-area: cuadrotres;
+}
+
+.cuadro3:hover {
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 5s;
+}
+
+.cuadro4 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 40px;
+    grid-area: cuadrocuatro;
+}
+
+.cuadro4:hover {
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 5s;
+}
+
+.cuadro5 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 40px;
+    grid-area: cuadrocinco;
+}
+
+.cuadro5:hover {
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 5s;
+}
+
+.cuadro6 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 40px;
+    grid-area: cuadroseis;
+}
+
+.cuadro6:hover {
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 5s;
+}
+
+.cuadro7 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 40px;
+    grid-area: cuadrosiete;
+}
+
+.cuadro7:hover {
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 5s;
+}
+
+.cuadro8 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 40px;
+    grid-area: cuadroocho;
+}
+
+.cuadro8:hover {
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 5s;
+}
+
+.cuadro9 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 40px;
+    grid-area: cuadronueve;
+}
+
+.cuadro9:hover {
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 5s;
+}
+
+.mercadoPago {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    display: grid;
+}
+
+.medidas {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    display: grid;
+}
+
+/* Celebrities */
+
+.celebridades {
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 30px;
+    align-items: flex-start;
+}
+
+.celebridades img{
+    width: 400px;
+    height: 200px;
+}
+
+.trabajo{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding: 30px;
+    margin: 20px;
+}
+
+.gridPadre2 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+        "celeuno celedos celetres"
+        "celecuatro celecinco celeseis"
+        "celesiete celeocho celenueve"
+        "celediez celeonce celedoce";
+}
+
+.celebridad1 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    grid-area: celeuno;
+}
+
+.celebridad2 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    grid-area: celedos;
+}
+
+.celebridad3 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    grid-area: celetres;
+}
+
+.celebridad4 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    grid-area: celecuatro;
+}
+
+.celebridad5 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    grid-area: celecinco;
+}
+
+.celebridad6 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    grid-area: celeseis;
+}
+
+.celebridad7 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    grid-area: celesiete;
+}
+
+.celebridad8 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    grid-area: celeocho;
+}
+
+.celebridad9 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    grid-area: celenueve;
+}
+
+.celebridad10 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    grid-area: celediez;
+}
+
+.celebridad11 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    grid-area: celeonce;
+}
+
+.carouselExample {
+    width: 400px;
+    height: 400px;
+
+}
+
+.celebridad12 {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    grid-area: celedoce;
+}
+
+.celebridadesp {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    display: grid;
+    text-decoration-line: none;
+    justify-content: center
+}
+
+/* Contacto */
+
+.contacto {
+    background-color: white;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.contacto img {
+    width: 500px;
+    height: 100px;
+    align-items: center;
+}
+
+section {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding: 30px;
+}
+
+.formulario {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.contactoUno {
+    padding: 10px 20px;
+    width: 500px;
+    height: 400px;
+    background-position: center;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+textarea {
+    min-height: 100px;
+    min-width: 450px;
+    font-size: 15px;
+}
+
+.boton {
+    margin: 10px;
+    padding: auto;
+    width: 300px;
+}
+
+.danipintando {
+    width: 600px;
+    height: 700px;
+    margin: auto;
+    border-radius: 50px;
+}
+
+
+@media screen and (max-width: 576px) {
+
+
+
+/* Index */
+
+    .titulo1 {
+        background-color: white;
+        width: 300px;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        padding: 30px;
+}
+
+    .titulo1 img {
+        width: 300px;
+        height: 125px;
+}
+
+    .imagenIndex {
+        width: 350px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+}
+
+
+    .imagenIndex img{
+        width: 350px;
+        height: auto;
+    }
+
+    .imagenIndex img {
+        width: 350px;
+        height: 200px;
+}
+
+
+/* History */
+
+.titulo2 {
+
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.titulo2 img {
+    width: 400px;
+    height: 100px;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.biografia {
+    background-color: white;
+    font-family: 'Dosis', sans-serif;
+    text-align: left;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.biografia2 {
+    text-indent: 40px;
+}
+
+p {
+
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 10px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    margin: 1px;
+}
+
+h2 {
+
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.imagenBiografia {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+.imagenBiografia2 {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+    justify-items: center;
+    border-radius: 50px;
+}
+
+/* Art */
+
+.shop {
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.shop img {
+    width: 200px;
+    height: 100px;
+    align-items: center;
+}
+
+
+    .gridPadre {
+        grid-template-columns: 90vw;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "cuadrouno"
+            "cuadrodos"
+            "cuadrotres"
+            "cuadrocuatro"
+            "cuadrocinco"
+            "cuadroseis"
+            "cuadrosiete"
+            "cuadroocho"
+            "cuadronueve";
+        justify-items: center;
+        justify-content: center;
+    }
+
+/* Celebridades */
+
+.celebridades {
+    background-color: white;
+    width: 310px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 30px;
+    align-items: flex-start;
+}
+
+.celebridades img{
+    width: 400px;
+    height: 200px;
+}
+
+.gridPadre2 {
+        grid-template-columns: 80vw;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "celeuno"
+            "celedos"
+            "celetres"
+            "celecuatro"
+            "celecinco"
+            "celeseis"
+            "celesiete" 
+            "celeocho" 
+            "celenueve"
+            "celediez" 
+            "celeonce" 
+            "celedoce";
+            justify-items: center;
+}
+
+.contacto {
+    background-color: white;
+    width: 300px;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.contacto img {
+    width: 300px;
+    height: 100px;
+    align-items: center;
+}
+
+section {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding: 30px;
+}
+
+.contactoUno {
+    padding: 10px 20px;
+    width: 250px;
+    height: 300px;
+    background-position: center;
+}
+
+input {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+textarea {
+    min-height: 100px;
+    min-width: 450px;
+    font-size: 15px;
+}
+
+.boton {
+    margin: 10px;
+    padding: auto;
+    width: 20px;
+}
+
+.danipintando {
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    border-radius: 50px;
+}
+}
+
+@media screen and (max-width: 360px) {
+
+    .titulo1 {
+        background-color: white;
+        width: 300px;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        padding: 30px;
+}
+
+    .titulo1 img {
+        width: 300px;
+        height: 125px;
+}
+
+    .imagenIndex {
+        width: 350px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+}
+
+
+    .imagenIndex img{
+        width: 350px;
+        height: auto;
+    }
+
+    .imagenIndex img {
+        width: 350px;
+        height: 200px;
+}
+
+
+}
