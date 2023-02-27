@@ -13,6 +13,7 @@ body {
     background-color: white;
     margin: 20px;
     padding: 10px;
+    overflow-x: hidden;
 }
 
 nav {
@@ -694,6 +695,13 @@ textarea {
 
 @media screen and (max-width: 576px) {
 
+    body {
+        background-color: white;
+        margin: 20px;
+        padding: 10px;
+        overflow-x: hidden;
+    }
+
     nav {
         overflow-x: hidden;
     }
@@ -953,6 +961,13 @@ textarea {
 }
 
 @media screen and (max-width: 360px) {
+
+    body {
+        background-color: white;
+        margin: 20px;
+        padding: 10px;
+        overflow-x: hidden;
+    }
 
     nav {
         overflow-x: hidden;
