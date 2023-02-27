@@ -1106,50 +1106,57 @@ h2 {
     border-radius: 50px;
 }
 
-}
-
 .cuadro1:hover {
     transform: scale(2);
     transition-property: all;
     transition-duration: 5s;
 }
+
 .cuadro2:hover {
     transform: scale(2);
     transition-property: all;
     transition-duration: 5s;
 }
+
 .cuadro3:hover {
     transform: scale(2);
     transition-property: all;
     transition-duration: 5s;
 }
+
 .cuadro4:hover {
     transform: scale(2);
     transition-property: all;
     transition-duration: 5s;
 }
+
 .cuadro5:hover {
     transform: scale(2);
     transition-property: all;
     transition-duration: 5s;
 }
+
 .cuadro6:hover {
     transform: scale(2);
     transition-property: all;
     transition-duration: 5s;
 }
+
 .cuadro7:hover {
     transform: scale(2);
     transition-property: all;
     transition-duration: 5s;
 }
+
 .cuadro8:hover {
     transform: scale(2);
     transition-property: all;
     transition-duration: 5s;
 }
+
 .cuadro9:hover {
     transform: scale(2);
     transition-property: all;
     transition-duration: 5s;
+}
 }
