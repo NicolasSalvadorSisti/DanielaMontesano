@@ -322,12 +322,6 @@ h2 {
     grid-area: cuadrouno;
 }
 
-.cuadro1:hover {
-    transition-property: all;
-    transform: scale(2);
-    transition-duration: 5s;
-}
-
 .cuadro2 {
     width: 400px;
     height: 400px;
@@ -336,12 +330,6 @@ h2 {
     padding: 25px;
     border-radius: 40px;
     grid-area: cuadrodos;
-}
-
-.cuadro2:hover {
-    transform: scale(2);
-    transition-property: all;
-    transition-duration: 5s;
 }
 
 .cuadro3 {
@@ -354,12 +342,6 @@ h2 {
     grid-area: cuadrotres;
 }
 
-.cuadro3:hover {
-    transform: scale(2);
-    transition-property: all;
-    transition-duration: 5s;
-}
-
 .cuadro4 {
     width: 400px;
     height: 400px;
@@ -368,12 +350,6 @@ h2 {
     padding: 25px;
     border-radius: 40px;
     grid-area: cuadrocuatro;
-}
-
-.cuadro4:hover {
-    transform: scale(2);
-    transition-property: all;
-    transition-duration: 5s;
 }
 
 .cuadro5 {
@@ -386,12 +362,6 @@ h2 {
     grid-area: cuadrocinco;
 }
 
-.cuadro5:hover {
-    transform: scale(2);
-    transition-property: all;
-    transition-duration: 5s;
-}
-
 .cuadro6 {
     width: 400px;
     height: 400px;
@@ -400,12 +370,6 @@ h2 {
     padding: 25px;
     border-radius: 40px;
     grid-area: cuadroseis;
-}
-
-.cuadro6:hover {
-    transform: scale(2);
-    transition-property: all;
-    transition-duration: 5s;
 }
 
 .cuadro7 {
@@ -418,12 +382,6 @@ h2 {
     grid-area: cuadrosiete;
 }
 
-.cuadro7:hover {
-    transform: scale(2);
-    transition-property: all;
-    transition-duration: 5s;
-}
-
 .cuadro8 {
     width: 400px;
     height: 400px;
@@ -434,12 +392,6 @@ h2 {
     grid-area: cuadroocho;
 }
 
-.cuadro8:hover {
-    transform: scale(2);
-    transition-property: all;
-    transition-duration: 5s;
-}
-
 .cuadro9 {
     width: 400px;
     height: 400px;
@@ -448,12 +400,6 @@ h2 {
     padding: 25px;
     border-radius: 40px;
     grid-area: cuadronueve;
-}
-
-.cuadro9:hover {
-    transform: scale(2);
-    transition-property: all;
-    transition-duration: 5s;
 }
 
 .mercadoPago {
@@ -1106,57 +1052,4 @@ h2 {
     border-radius: 50px;
 }
 
-.cuadro1:hover {
-    transform: scale(2);
-    transition-property: all;
-    transition-duration: 5s;
-}
-
-.cuadro2:hover {
-    transform: scale(2);
-    transition-property: all;
-    transition-duration: 5s;
-}
-
-.cuadro3:hover {
-    transform: scale(2);
-    transition-property: all;
-    transition-duration: 5s;
-}
-
-.cuadro4:hover {
-    transform: scale(2);
-    transition-property: all;
-    transition-duration: 5s;
-}
-
-.cuadro5:hover {
-    transform: scale(2);
-    transition-property: all;
-    transition-duration: 5s;
-}
-
-.cuadro6:hover {
-    transform: scale(2);
-    transition-property: all;
-    transition-duration: 5s;
-}
-
-.cuadro7:hover {
-    transform: scale(2);
-    transition-property: all;
-    transition-duration: 5s;
-}
-
-.cuadro8:hover {
-    transform: scale(2);
-    transition-property: all;
-    transition-duration: 5s;
-}
-
-.cuadro9:hover {
-    transform: scale(2);
-    transition-property: all;
-    transition-duration: 5s;
-}
 }
