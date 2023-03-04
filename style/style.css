@@ -195,13 +195,6 @@ footer {
     height: 100px;
 }
 
-.contenedor {
-    background-color: white;
-    padding: 30px;
-    margin: 15px;
-    display: flex;
-}
-
 .suTrabajo {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
@@ -223,7 +216,7 @@ footer {
     text-align: left;
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 20px;
     letter-spacing: 1px;
     padding: 20px;
@@ -242,7 +235,7 @@ p {
     font-style: normal;
     font-weight: bolder;
     text-align: left;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 25px;
     letter-spacing: 1px;
     list-style-type: none;
@@ -258,16 +251,17 @@ h2 {
 }
 
 .imagenBiografia {
-    width: 700px;
-    height: 1000px;
+    width: 300px;
+    height: auto;
     margin: auto;
     padding: 25px;
     border-radius: 50px;
+    display: flex;
 }
 
 .imagenBiografia2 {
-    width: 700px;
-    height: 375px;
+    width: 300px;
+    height: auto;
     margin: auto;
     padding: 25px;
     justify-items: center;
