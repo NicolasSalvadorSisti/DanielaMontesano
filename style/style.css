@@ -621,79 +621,57 @@ h2 {
 
 .contacto {
     background-color: white;
-    width: 700px;
-    height: 200px;
+    width: 350px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: auto;
-    padding: 30px;
+    padding: 10px;
 }
 
 .contacto img {
-    width: 500px;
-    height: 100px;
+    width: 300px;
+    height: 80px;
     align-items: center;
 }
 
-section {
+.ayuda {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: bolder;
-    text-align: left;
-    font-size: 18px;
+    text-align: center;
+    font-size: 10px;
     line-height: 20px;
     letter-spacing: 1px;
     list-style-type: none;
-    padding: 30px;
-}
-
-.formulario {
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: bolder;
-    text-align: left;
-    font-size: 18px;
-    line-height: 20px;
-    letter-spacing: 1px;
-    padding: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-
-.contactoUno {
-    padding: 10px 20px;
-    width: 500px;
-    height: 400px;
-    background-position: center;
-}
-
-input {
-    width: 100%;
-    margin-bottom: 20px;
     padding: 10px;
-    box-sizing: border-box;
-    font-size: 15px;
-}
-
-textarea {
-    min-height: 100px;
-    min-width: 450px;
-    font-size: 15px;
-}
-
-.boton {
     margin: 10px;
-    padding: auto;
-    width: 300px;
 }
+
+.danielapintando {
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-content: center;
+        grid-template-areas:
+            "pintura"
+            "formu";
+    }
 
 .danipintando {
-    width: 600px;
-    height: 700px;
-    margin: auto;
+    width: 300px;
+    height: auto;
+    margin: 20px;
     border-radius: 50px;
+    display: grid;
+    justify-content: center;
+    grid-area: pintura;
+}
+
+.mb-3 {
+    display: grid;
+    grid-area: formu;
 }
 
 @media (min-width: 576px) {
@@ -1599,8 +1577,8 @@ textarea {
 
     .contacto {
         background-color: white;
-        width: 700px;
-        height: 200px;
+        width: 500px;
+        height: 100px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -1609,69 +1587,51 @@ textarea {
     }
 
     .contacto img {
-        width: 500px;
-        height: 100px;
-        align-items: center;
+        width: 450px;
+        height: 125px;
+        padding: 20px;
+        margin: 20px;
     }
 
-    section {
+    
+    .ayuda {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
         font-weight: bolder;
-        text-align: left;
+        text-align: center;
         font-size: 18px;
         line-height: 20px;
         letter-spacing: 1px;
         list-style-type: none;
-        padding: 30px;
-    }
-
-    .formulario {
-        font-family: 'Ubuntu', sans-serif;
-        font-style: normal;
-        font-weight: bolder;
-        text-align: left;
-        font-size: 18px;
-        line-height: 20px;
-        letter-spacing: 1px;
-        padding: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: flex-start;
-    }
-
-    .contactoUno {
-        padding: 10px 20px;
-        width: 500px;
-        height: 400px;
-        background-position: center;
-    }
-
-    input {
-        width: 100%;
-        margin-bottom: 20px;
         padding: 10px;
-        box-sizing: border-box;
-        font-size: 15px;
+        margin: 30px;
     }
-
-    textarea {
-        min-height: 100px;
-        min-width: 450px;
-        font-size: 15px;
-    }
-
-    .boton {
-        margin: 10px;
-        padding: auto;
-        width: 300px;
-    }
-
+    
+    .danielapintando {
+            background-color: white;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            justify-content: center;
+            grid-template-areas:
+                "formu" "pintura";
+        }
+    
+        .mb-3 {
+            display: grid;
+            grid-area: formu;
+        }
+        
     .danipintando {
-        width: 600px;
-        height: 700px;
-        margin: auto;
+        width: 700px;
+        height: auto;
+        margin: 20px;
         border-radius: 50px;
+        display: grid;
+        justify-content: center;
+        grid-area: pintura;
     }
+    
+
 
 }
