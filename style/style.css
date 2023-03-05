@@ -654,6 +654,7 @@ h2 {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         justify-content: center;
+        justify-items: center;
         grid-template-areas:
             "pintura"
             "formu";
@@ -666,6 +667,7 @@ h2 {
     border-radius: 50px;
     display: grid;
     justify-content: center;
+    justify-items: center;
     grid-area: pintura;
 }
 
