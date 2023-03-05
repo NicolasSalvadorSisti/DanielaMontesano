@@ -934,8 +934,9 @@ h2 {
     justify-content: center;
     grid-area: formu;
 }
+}
 
-@media (min-width: 992px){}
+@media (min-width: 992px) {
     body {
         background-color: white;
         text-align: center;
@@ -1623,5 +1624,4 @@ h2 {
         justify-content: center;
         grid-area: pintura;
     }
-    
 }
