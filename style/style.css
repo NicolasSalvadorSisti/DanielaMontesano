@@ -256,36 +256,17 @@ h2 {
     margin: auto;
     padding: 25px;
     border-radius: 50px;
-    display: flex;
-}
-
-.imagenBiografia2 {
-    width: 360px;
-    height: auto;
-    margin: auto;
-    padding: 25px;
-    justify-items: center;
-    border-radius: 50px;
+    display: grid;
+    justify-content: start;
 }
 
 .imagenBiografia img {
-    display: flex;
+    display: grid;
     width: 300px;
     height: auto;
     margin: auto;
-    padding: 25px;
-    justify-items: center;
     border-radius: 50px;
-}
-
-.imagenBiografia2 img {
-    display: block;
-    width: 360px;
-    height: auto;
-    margin: auto;
-    padding: 25px;
-    justify-items: center;
-    border-radius: 50px;
+    justify-content: start;
 }
 
 /* Shop */
