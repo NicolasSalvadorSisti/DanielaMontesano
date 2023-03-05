@@ -12,7 +12,7 @@
 body {
     background-color: white;
     text-align: center;
-    font-family:'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin: 20px;
     padding: 10px;
     min-height: 100vh;
@@ -251,7 +251,7 @@ h2 {
 }
 
 .imagenBiografia {
-    width: 250px;
+    width: 360px;
     height: auto;
     margin: auto;
     padding: 25px;
@@ -260,7 +260,27 @@ h2 {
 }
 
 .imagenBiografia2 {
-    width: 250px;
+    width: 360px;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+    justify-items: center;
+    border-radius: 50px;
+}
+
+.imagenBiografia img {
+    display: flex;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+    justify-items: center;
+    border-radius: 50px;
+}
+
+.imagenBiografia2 img {
+    display: block;
+    width: 360px;
     height: auto;
     margin: auto;
     padding: 25px;
@@ -689,16 +709,16 @@ textarea {
 
 @media (min-width: 576px) {
 
-body {
-    background-color: white;
-    margin: 20px;
-    padding: 10px;
-    overflow-x: hidden;
-}
+    body {
+        background-color: white;
+        margin: 20px;
+        padding: 10px;
+        overflow-x: hidden;
+    }
 
-nav {
-    overflow-x: hidden;
-}
+    nav {
+        overflow-x: hidden;
+    }
 
 
     /* Index */
@@ -960,22 +980,22 @@ nav {
     body {
         background-color: white;
         text-align: center;
-        font-family:'Ubuntu', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         margin: 20px;
         padding: 10px;
         min-height: 100vh;
         overflow-x: hidden;
     }
-    
+
     nav {
         overflow-x: hidden;
     }
-    
+
     header {
         background-color: white;
         padding: 20px;
     }
-    
+
     ul {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -990,13 +1010,13 @@ nav {
         text-decoration: none;
         color: black;
     }
-    
+
     ul li {
         display: inline-block;
     }
-    
+
     /* Index */
-    
+
     .titulo1 {
         background-color: white;
         width: 500px;
@@ -1007,12 +1027,12 @@ nav {
         margin: auto;
         padding: 30px;
     }
-    
+
     .titulo1 img {
         width: 600px;
         height: 200px;
     }
-    
+
     h1 {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1025,7 +1045,7 @@ nav {
         padding: 100px;
         margin: auto;
     }
-    
+
     .bienvenido {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1038,7 +1058,7 @@ nav {
         padding: 100px;
         margin: 20px;
     }
-    
+
     .imagenIndex {
         width: 1000px;
         height: 600px;
@@ -1047,13 +1067,13 @@ nav {
         align-items: center;
         margin: auto;
     }
-    
+
     .imagenIndex img {
         width: 1000px;
         height: 600px;
         border-radius: 30px;
     }
-    
+
     footer {
         font-family: 'Dosis', sans-serif;
         font-style: italic;
@@ -1064,7 +1084,7 @@ nav {
         padding: 10px;
         margin: 10px;
     }
-    
+
     .arriba {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1075,7 +1095,7 @@ nav {
         text-decoration-line: none;
         padding: 30px;
     }
-    
+
     .montesanoLogo {
         width: 300px;
         height: 300px;
@@ -1085,39 +1105,39 @@ nav {
         align-items: center;
         padding: 20px;
     }
-    
+
     .logo {
         width: 200px;
         height: 100px;
     }
-    
+
     .logo:hover {
         transform: rotate(360deg) scale(3);
         transition-property: all;
         transition-duration: 500ms;
     }
-    
+
     .instagram {
         margin: 5px;
         width: 100px;
         height: 80px;
         padding: 15px 20px;
     }
-    
+
     .twitter {
         margin: 5px;
         width: 100px;
         height: 80px;
         padding: 15px 20px;
     }
-    
+
     .youtube {
         margin: 5px;
         width: 90px;
         height: 90px;
         padding: 15px;
     }
-    
+
     .redesSociales {
         padding: 10px;
         margin: 10px;
@@ -1127,9 +1147,9 @@ nav {
         font-style: normal;
         font-weight: bolder;
     }
-    
+
     /* Biografía */
-    
+
     .titulo2 {
         background-color: white;
         width: 600px;
@@ -1140,19 +1160,19 @@ nav {
         margin: auto;
         padding: 30px;
     }
-    
+
     .titulo2 img {
         width: 500px;
         height: 150px;
     }
-    
+
     .contenedor {
         background-color: white;
         padding: 30px;
         margin: 15px;
         display: flex;
     }
-    
+
     .suTrabajo {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1165,7 +1185,7 @@ nav {
         padding: 30px;
         margin: 20px;
     }
-    
+
     .biografia {
         background-color: white;
         padding: 50px;
@@ -1180,12 +1200,12 @@ nav {
         padding: 20px;
         color: black;
     }
-    
+
     .biografia2 {
         text-indent: 40px;
         margin: 10px;
     }
-    
+
     p {
         padding: auto;
         margin: 15px;
@@ -1199,7 +1219,7 @@ nav {
         list-style-type: none;
         margin: 1px;
     }
-    
+
     h2 {
         padding: 30px;
         text-align: center;
@@ -1207,16 +1227,37 @@ nav {
         font-style: normal;
         font-weight: bolder;
     }
-    
+
     .imagenBiografia {
+        width: 700px;
+        height: 1000px;
+        display: flex;
+        margin: auto;
+        padding: 25px;
+        border-radius: 50px;
+        justify-content: center;
+    }
+
+    .imagenBiografia2 {
+        width: 700px;
+        height: 375px;
+        display: flex;
+        margin: auto;
+        padding: 25px;
+        border-radius: 50px;
+        justify-content: center;
+    }
+
+    .imagenBiografia img {
         width: 700px;
         height: 1000px;
         margin: auto;
         padding: 25px;
         border-radius: 50px;
+        justify-content: center;
     }
-    
-    .imagenBiografia2 {
+
+    .imagenBiografia2 img {
         width: 700px;
         height: 375px;
         margin: auto;
@@ -1224,9 +1265,9 @@ nav {
         justify-items: center;
         border-radius: 50px;
     }
-    
+
     /* Shop */
-    
+
     .shop {
         background-color: white;
         width: 600px;
@@ -1237,13 +1278,13 @@ nav {
         padding: 30px;
         align-items: flex-start;
     }
-    
+
     .shop img {
         width: 400px;
         height: 175px;
         align-items: center;
     }
-    
+
     .cuadros {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1256,7 +1297,7 @@ nav {
         padding: 30px;
         margin: 20px;
     }
-    
+
     .gridPadre {
         background-color: white;
         display: grid;
@@ -1268,7 +1309,7 @@ nav {
             "cuadrocuatro cuadrocinco cuadroseis"
             "cuadrosiete cuadroocho cuadronueve";
     }
-    
+
     .cuadro1 {
         width: 400px;
         height: 400px;
@@ -1278,7 +1319,7 @@ nav {
         border-radius: 40px;
         grid-area: cuadrouno;
     }
-    
+
     .cuadro2 {
         width: 400px;
         height: 400px;
@@ -1288,7 +1329,7 @@ nav {
         border-radius: 40px;
         grid-area: cuadrodos;
     }
-    
+
     .cuadro3 {
         width: 400px;
         height: 400px;
@@ -1298,7 +1339,7 @@ nav {
         border-radius: 40px;
         grid-area: cuadrotres;
     }
-    
+
     .cuadro4 {
         width: 400px;
         height: 400px;
@@ -1308,7 +1349,7 @@ nav {
         border-radius: 40px;
         grid-area: cuadrocuatro;
     }
-    
+
     .cuadro5 {
         width: 400px;
         height: 400px;
@@ -1318,7 +1359,7 @@ nav {
         border-radius: 40px;
         grid-area: cuadrocinco;
     }
-    
+
     .cuadro6 {
         width: 400px;
         height: 400px;
@@ -1328,7 +1369,7 @@ nav {
         border-radius: 40px;
         grid-area: cuadroseis;
     }
-    
+
     .cuadro7 {
         width: 400px;
         height: 400px;
@@ -1338,7 +1379,7 @@ nav {
         border-radius: 40px;
         grid-area: cuadrosiete;
     }
-    
+
     .cuadro8 {
         width: 400px;
         height: 400px;
@@ -1348,7 +1389,7 @@ nav {
         border-radius: 40px;
         grid-area: cuadroocho;
     }
-    
+
     .cuadro9 {
         width: 400px;
         height: 400px;
@@ -1358,7 +1399,7 @@ nav {
         border-radius: 40px;
         grid-area: cuadronueve;
     }
-    
+
     .mercadoPago {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1370,7 +1411,7 @@ nav {
         list-style-type: none;
         display: grid;
     }
-    
+
     .medidas {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1382,9 +1423,9 @@ nav {
         list-style-type: none;
         display: grid;
     }
-    
+
     /* Celebrities */
-    
+
     .celebridades {
         background-color: white;
         width: 600px;
@@ -1395,12 +1436,12 @@ nav {
         padding: 30px;
         align-items: flex-start;
     }
-    
+
     .celebridades img {
         width: 400px;
         height: 200px;
     }
-    
+
     .trabajo {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1413,7 +1454,7 @@ nav {
         padding: 30px;
         margin: 20px;
     }
-    
+
     .gridPadre2 {
         background-color: white;
         display: grid;
@@ -1425,7 +1466,7 @@ nav {
             "celesiete celeocho celenueve"
             "celediez celeonce celedoce";
     }
-    
+
     .celebridad1 {
         width: 400px;
         height: 400px;
@@ -1435,7 +1476,7 @@ nav {
         border-radius: 40px;
         grid-area: celeuno;
     }
-    
+
     .celebridad2 {
         width: 400px;
         height: 400px;
@@ -1445,7 +1486,7 @@ nav {
         border-radius: 40px;
         grid-area: celedos;
     }
-    
+
     .celebridad3 {
         width: 400px;
         height: 400px;
@@ -1455,7 +1496,7 @@ nav {
         border-radius: 40px;
         grid-area: celetres;
     }
-    
+
     .celebridad4 {
         width: 400px;
         height: 400px;
@@ -1465,7 +1506,7 @@ nav {
         border-radius: 40px;
         grid-area: celecuatro;
     }
-    
+
     .celebridad5 {
         width: 400px;
         height: 400px;
@@ -1475,7 +1516,7 @@ nav {
         border-radius: 40px;
         grid-area: celecinco;
     }
-    
+
     .celebridad6 {
         width: 400px;
         height: 400px;
@@ -1485,7 +1526,7 @@ nav {
         border-radius: 40px;
         grid-area: celeseis;
     }
-    
+
     .celebridad7 {
         width: 400px;
         height: 400px;
@@ -1495,7 +1536,7 @@ nav {
         border-radius: 40px;
         grid-area: celesiete;
     }
-    
+
     .celebridad8 {
         width: 400px;
         height: 400px;
@@ -1505,7 +1546,7 @@ nav {
         border-radius: 40px;
         grid-area: celeocho;
     }
-    
+
     .celebridad9 {
         width: 400px;
         height: 400px;
@@ -1515,7 +1556,7 @@ nav {
         border-radius: 40px;
         grid-area: celenueve;
     }
-    
+
     .celebridad10 {
         width: 400px;
         height: 400px;
@@ -1525,7 +1566,7 @@ nav {
         border-radius: 40px;
         grid-area: celediez;
     }
-    
+
     .celebridad11 {
         width: 400px;
         height: 400px;
@@ -1535,13 +1576,13 @@ nav {
         border-radius: 40px;
         grid-area: celeonce;
     }
-    
+
     .carouselExample {
         width: 400px;
         height: 400px;
-    
+
     }
-    
+
     .celebridad12 {
         width: 400px;
         height: 400px;
@@ -1551,7 +1592,7 @@ nav {
         border-radius: 40px;
         grid-area: celedoce;
     }
-    
+
     .celebridadesp {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1564,9 +1605,9 @@ nav {
         text-decoration-line: none;
         justify-content: center
     }
-    
+
     /* Contacto */
-    
+
     .contacto {
         background-color: white;
         width: 700px;
@@ -1577,13 +1618,13 @@ nav {
         margin: auto;
         padding: 30px;
     }
-    
+
     .contacto img {
         width: 500px;
         height: 100px;
         align-items: center;
     }
-    
+
     section {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1595,7 +1636,7 @@ nav {
         list-style-type: none;
         padding: 30px;
     }
-    
+
     .formulario {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1609,14 +1650,14 @@ nav {
         justify-content: space-evenly;
         align-items: flex-start;
     }
-    
+
     .contactoUno {
         padding: 10px 20px;
         width: 500px;
         height: 400px;
         background-position: center;
     }
-    
+
     input {
         width: 100%;
         margin-bottom: 20px;
@@ -1624,19 +1665,19 @@ nav {
         box-sizing: border-box;
         font-size: 15px;
     }
-    
+
     textarea {
         min-height: 100px;
         min-width: 450px;
         font-size: 15px;
     }
-    
+
     .boton {
         margin: 10px;
         padding: auto;
         width: 300px;
     }
-    
+
     .danipintando {
         width: 600px;
         height: 700px;
