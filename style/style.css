@@ -256,15 +256,14 @@ h2 {
     margin: auto;
     padding: 25px;
     border-radius: 50px;
-    display: grid;
+    display: flex;
     justify-content: start;
 }
 
 .imagenBiografia img {
-    display: grid;
+    display: flex;
     width: 300px;
     height: auto;
-    margin: auto;
     border-radius: 50px;
     justify-content: start;
 }
@@ -273,8 +272,8 @@ h2 {
 
 .shop {
     background-color: white;
-    width: 600px;
-    height: 200px;
+    width: 300px;
+    height: 100px;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -283,8 +282,8 @@ h2 {
 }
 
 .shop img {
-    width: 400px;
-    height: 175px;
+    width: 300px;
+    height: 75px;
     align-items: center;
 }
 
@@ -304,18 +303,24 @@ h2 {
 .gridPadre {
     background-color: white;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     justify-content: center;
     grid-template-areas:
-        "cuadrouno cuadrodos cuadrotres"
-        "cuadrocuatro cuadrocinco cuadroseis"
-        "cuadrosiete cuadroocho cuadronueve";
+        "cuadrouno"
+        "cuadrodos"
+        "cuadrotres"
+        "cuadrocuatro"
+        "cuadrocinco"
+        "cuadroseis"
+        "cuadrosiete"
+        "cuadroocho"
+        "cuadronueve";
 }
 
 .cuadro1 {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     display: grid;
     margin: 25px;
     padding: 25px;
@@ -324,8 +329,8 @@ h2 {
 }
 
 .cuadro2 {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     display: grid;
     margin: 25px;
     padding: 25px;
@@ -334,8 +339,8 @@ h2 {
 }
 
 .cuadro3 {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     display: grid;
     margin: 25px;
     padding: 25px;
@@ -344,8 +349,8 @@ h2 {
 }
 
 .cuadro4 {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     display: grid;
     margin: 25px;
     padding: 25px;
@@ -354,8 +359,8 @@ h2 {
 }
 
 .cuadro5 {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     display: grid;
     margin: 25px;
     padding: 25px;
@@ -364,8 +369,8 @@ h2 {
 }
 
 .cuadro6 {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     display: grid;
     margin: 25px;
     padding: 25px;
@@ -374,8 +379,8 @@ h2 {
 }
 
 .cuadro7 {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     display: grid;
     margin: 25px;
     padding: 25px;
@@ -384,8 +389,8 @@ h2 {
 }
 
 .cuadro8 {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     display: grid;
     margin: 25px;
     padding: 25px;
@@ -394,8 +399,8 @@ h2 {
 }
 
 .cuadro9 {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     display: grid;
     margin: 25px;
     padding: 25px;
