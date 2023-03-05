@@ -649,16 +649,16 @@ h2 {
 }
 
 .danielapintando {
-        background-color: white;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        justify-content: center;
-        justify-items: center;
-        grid-template-areas:
-            "pintura"
-            "formu";
-    }
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    justify-items: center;
+    grid-template-areas:
+        "pintura"
+        "formu";
+}
 
 .danipintando {
     width: 300px;
@@ -677,7 +677,7 @@ h2 {
     grid-area: formu;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 575px) {
 
     body {
         background-color: white;
@@ -782,7 +782,6 @@ h2 {
     }
 
     h2 {
-
         text-align: center;
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -883,36 +882,36 @@ h2 {
 
     /* Contacto */
 
-.contacto {
-    background-color: white;
-    width: 350px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    padding: 10px;
-}
+    .contacto {
+        background-color: white;
+        width: 350px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        padding: 10px;
+    }
 
-.contacto img {
-    width: 300px;
-    height: 80px;
-    align-items: center;
-}
+    .contacto img {
+        width: 300px;
+        height: 80px;
+        align-items: center;
+    }
 
-.ayuda {
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 10px;
-    line-height: 20px;
-    letter-spacing: 1px;
-    list-style-type: none;
-    padding: 10px;
-    margin: 10px;
-}
+    .ayuda {
+        font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 10px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        list-style-type: none;
+        padding: 10px;
+        margin: 10px;
+    }
 
-.danielapintando {
+    .danielapintando {
         background-color: white;
         display: grid;
         grid-template-columns: 1fr;
@@ -924,25 +923,27 @@ h2 {
             "formu";
     }
 
-.danipintando {
-    width: 300px;
-    height: auto;
-    margin: 20px;
-    border-radius: 50px;
-    display: grid;
-    justify-content: center;
-    grid-area: pintura;
-    justify-items: center
-}
+    .danipintando {
+        width: 300px;
+        height: auto;
+        margin: 20px;
+        border-radius: 50px;
+        display: grid;
+        justify-content: center;
+        grid-area: pintura;
+        justify-items: center
+    }
 
-.mb-3 {
-    display: grid;
-    justify-content: center;
-    grid-area: formu;
-}
+    .mb-3 {
+        display: grid;
+        justify-content: center;
+        grid-area: formu;
+    }
 }
 
 @media (min-width: 992px) {
+
+
     body {
         background-color: white;
         text-align: center;
@@ -1592,7 +1593,7 @@ h2 {
         margin: 20px;
     }
 
-    
+
     .ayuda {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1605,22 +1606,22 @@ h2 {
         padding: 10px;
         margin: 30px;
     }
-    
+
     .danielapintando {
-            background-color: white;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: auto;
-            justify-content: center;
-            grid-template-areas:
-                "formu" "pintura";
-        }
-    
-        .mb-3 {
-            display: grid;
-            grid-area: formu;
-        }
-        
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        justify-content: center;
+        grid-template-areas:
+            "formu" "pintura";
+    }
+
+    .mb-3 {
+        display: grid;
+        grid-area: formu;
+    }
+
     .danipintando {
         width: 700px;
         height: auto;
