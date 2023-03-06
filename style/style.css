@@ -688,7 +688,7 @@ h2 {
 }
 
 .form-label {
-    width: 550px;
+    width: 300px;
 }
 
 .col-auto {
@@ -1071,6 +1071,10 @@ justify-content: center;
         display: grid;
         justify-content: center;
         grid-area: formu;
+    }
+    
+    .form-label {
+        width: 500px;
     }
 }
 
@@ -1753,6 +1757,10 @@ justify-content: center;
         justify-content: center;
         grid-area: formu;
     }
+    
+    .form-label {
+        width: 650px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -2431,16 +2439,26 @@ justify-content: center;
 
     .mb-3 {
         display: grid;
+        justify-content: center;
         grid-area: formu;
+    }
+    
+    .form-label {
+        width: 700px;
     }
 
     .danipintando {
-        width: 700px;
-        height: auto;
+        width: 600px;
+        height: 650px;
         margin: 20px;
         border-radius: 50px;
         display: grid;
         justify-content: center;
         grid-area: pintura;
+    }
+    
+    .danielapintando2 {
+        display: flex;
+        flex-direction: column-reverse
     }
 }
