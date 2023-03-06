@@ -251,7 +251,7 @@ h2 {
 }
 
 .imagenBiografia img {
-    width: 300px;
+    width: 360px;
     height: auto;
     display: flex;
     border-radius: 50px;
@@ -278,6 +278,27 @@ h2 {
     justify-content: center;
     padding: 40px;
 }
+
+    .ferrari {
+        width: 360px;
+        height: 250px;
+        margin: auto;
+        padding: auto;
+        border-radius: 50px;
+        display: grid;
+        justify-content: center;
+        grid-area: biofoto;
+    }
+
+    .ferrari img {
+        width: 300px;
+        height: auto;
+        display: flex;
+        border-radius: 50px;
+        justify-content: center;
+        padding: 40px;
+    }
+
 /* Shop */
 
 .shop {
@@ -691,10 +712,7 @@ h2 {
     width: 300px;
 }
 
-.col-auto {
-display: flex;
-justify-content: center;
-}
+
 
 @media (min-width: 575px) {
 
@@ -824,6 +842,24 @@ justify-content: center;
         border-radius: 50px;
     }
 
+    .ferrari {
+        width: 300px;
+        height: auto;
+        margin: auto;
+        padding: 25px;
+        justify-items: center;
+        border-radius: 50px;
+    }
+
+    .ferrari img {
+        width: 300px;
+        height: auto;
+        margin: auto;
+        padding: 25px;
+        justify-items: center;
+        border-radius: 50px;
+    }
+
     /* Art */
 
     .shop {
@@ -899,119 +935,119 @@ justify-content: center;
         justify-items: center;
     }
 
-.cuadro1 {
-    width: 300px;
-    height: 300px;
-    display: grid;
-    margin: 25px;
-    padding: 25px;
-    border-radius: 40px;
-    grid-area: cuadrouno;
-}
+    .cuadro1 {
+        width: 300px;
+        height: 300px;
+        display: grid;
+        margin: 25px;
+        padding: 25px;
+        border-radius: 40px;
+        grid-area: cuadrouno;
+    }
 
-.cuadro2 {
-    width: 300px;
-    height: 300px;
-    display: grid;
-    margin: 25px;
-    padding: 25px;
-    border-radius: 40px;
-    grid-area: cuadrodos;
-}
+    .cuadro2 {
+        width: 300px;
+        height: 300px;
+        display: grid;
+        margin: 25px;
+        padding: 25px;
+        border-radius: 40px;
+        grid-area: cuadrodos;
+    }
 
-.cuadro3 {
-    width: 300px;
-    height: 300px;
-    display: grid;
-    margin: 25px;
-    padding: 25px;
-    border-radius: 40px;
-    grid-area: cuadrotres;
-}
+    .cuadro3 {
+        width: 300px;
+        height: 300px;
+        display: grid;
+        margin: 25px;
+        padding: 25px;
+        border-radius: 40px;
+        grid-area: cuadrotres;
+    }
 
-.cuadro4 {
-    width: 300px;
-    height: 300px;
-    display: grid;
-    margin: 25px;
-    padding: 25px;
-    border-radius: 40px;
-    grid-area: cuadrocuatro;
-}
+    .cuadro4 {
+        width: 300px;
+        height: 300px;
+        display: grid;
+        margin: 25px;
+        padding: 25px;
+        border-radius: 40px;
+        grid-area: cuadrocuatro;
+    }
 
-.cuadro5 {
-    width: 300px;
-    height: 300px;
-    display: grid;
-    margin: 25px;
-    padding: 25px;
-    border-radius: 40px;
-    grid-area: cuadrocinco;
-}
+    .cuadro5 {
+        width: 300px;
+        height: 300px;
+        display: grid;
+        margin: 25px;
+        padding: 25px;
+        border-radius: 40px;
+        grid-area: cuadrocinco;
+    }
 
-.cuadro6 {
-    width: 300px;
-    height: 300px;
-    display: grid;
-    margin: 25px;
-    padding: 25px;
-    border-radius: 40px;
-    grid-area: cuadroseis;
-}
+    .cuadro6 {
+        width: 300px;
+        height: 300px;
+        display: grid;
+        margin: 25px;
+        padding: 25px;
+        border-radius: 40px;
+        grid-area: cuadroseis;
+    }
 
-.cuadro7 {
-    width: 300px;
-    height: 300px;
-    display: grid;
-    margin: 25px;
-    padding: 25px;
-    border-radius: 40px;
-    grid-area: cuadrosiete;
-}
+    .cuadro7 {
+        width: 300px;
+        height: 300px;
+        display: grid;
+        margin: 25px;
+        padding: 25px;
+        border-radius: 40px;
+        grid-area: cuadrosiete;
+    }
 
-.cuadro8 {
-    width: 300px;
-    height: 300px;
-    display: grid;
-    margin: 25px;
-    padding: 25px;
-    border-radius: 40px;
-    grid-area: cuadroocho;
-}
+    .cuadro8 {
+        width: 300px;
+        height: 300px;
+        display: grid;
+        margin: 25px;
+        padding: 25px;
+        border-radius: 40px;
+        grid-area: cuadroocho;
+    }
 
-.cuadro9 {
-    width: 300px;
-    height: 300px;
-    display: grid;
-    margin: 25px;
-    padding: 25px;
-    border-radius: 40px;
-    grid-area: cuadronueve;
-}
+    .cuadro9 {
+        width: 300px;
+        height: 300px;
+        display: grid;
+        margin: 25px;
+        padding: 25px;
+        border-radius: 40px;
+        grid-area: cuadronueve;
+    }
 
-.mercadoPago {
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 1px;
-    list-style-type: none;
-    display: grid;
-}
+    .mercadoPago {
+        font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        list-style-type: none;
+        display: grid;
+    }
 
-.medidas {
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 15px;
-    line-height: 20px;
-    letter-spacing: 1px;
-    list-style-type: none;
-    display: grid;
-}
+    .medidas {
+        font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        list-style-type: none;
+        display: grid;
+    }
 
     /* Contacto */
 
@@ -1072,9 +1108,9 @@ justify-content: center;
         justify-content: center;
         grid-area: formu;
     }
-    
+
     .form-label {
-        width: 500px;
+        width: 450px;
     }
 }
 
@@ -1089,16 +1125,16 @@ justify-content: center;
         min-height: 100vh;
         overflow-x: hidden;
     }
-    
+
     nav {
         overflow-x: hidden;
     }
-    
+
     header {
         background-color: white;
         padding: 20px;
     }
-    
+
     ul {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1113,13 +1149,13 @@ justify-content: center;
         text-decoration: none;
         color: black;
     }
-    
+
     ul li {
         display: inline-block;
     }
-    
+
     /* Index */
-    
+
     .titulo1 {
         background-color: white;
         width: 360px;
@@ -1130,12 +1166,12 @@ justify-content: center;
         margin: auto;
         padding: 30px;
     }
-    
+
     .titulo1 img {
         width: 300px;
         height: 100px;
     }
-    
+
     h1 {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1148,7 +1184,7 @@ justify-content: center;
         padding: 30px;
         margin: 20px;
     }
-    
+
     .bienvenido {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1161,7 +1197,7 @@ justify-content: center;
         padding: 30px;
         margin: 20px;
     }
-    
+
     .imagenIndex {
         width: 330px;
         height: 200px;
@@ -1170,13 +1206,13 @@ justify-content: center;
         align-items: center;
         margin: auto;
     }
-    
+
     .imagenIndex img {
         width: 300px;
         height: 200px;
         border-radius: 30px;
     }
-    
+
     footer {
         font-family: 'Dosis', sans-serif;
         font-style: italic;
@@ -1186,7 +1222,7 @@ justify-content: center;
         text-align: center;
         padding: 10px;
     }
-    
+
     .arriba {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1196,7 +1232,7 @@ justify-content: center;
         margin: auto;
         text-decoration-line: none;
     }
-    
+
     .montesanoLogo {
         width: 200px;
         height: 100px;
@@ -1205,39 +1241,39 @@ justify-content: center;
         justify-content: center;
         align-items: center;
     }
-    
+
     .logo {
         width: 100px;
         height: 50px;
     }
-    
+
     .logo:hover {
         transform: rotate(360deg) scale(3);
         transition-property: all;
         transition-duration: 500ms;
     }
-    
+
     .instagram {
         margin: 5px;
         width: 70px;
         height: 60px;
         padding: 15px 20px;
     }
-    
+
     .twitter {
         margin: 5px;
         width: 70px;
         height: 60px;
         padding: 15px 20px;
     }
-    
+
     .youtube {
         margin: 5px;
         width: 60px;
         height: 60px;
         padding: 15px;
     }
-    
+
     .redesSociales {
         padding: 10px;
         margin: 10px;
@@ -1247,9 +1283,9 @@ justify-content: center;
         font-style: normal;
         font-weight: bolder;
     }
-    
+
     /* Biografía */
-    
+
     .titulo2 {
         background-color: white;
         width: 330px;
@@ -1260,12 +1296,12 @@ justify-content: center;
         margin: auto;
         padding: 30px;
     }
-    
+
     .titulo2 img {
         width: 330px;
         height: 100px;
     }
-    
+
     .suTrabajo {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1278,7 +1314,7 @@ justify-content: center;
         padding: 30px;
         margin: 20px;
     }
-    
+
     .biografia {
         background-color: white;
         display: grid;
@@ -1286,7 +1322,7 @@ justify-content: center;
         grid-template-rows: auto;
         justify-content: center;
     }
-    
+
     p {
         padding: 10px;
         margin: 15px;
@@ -1301,7 +1337,7 @@ justify-content: center;
         margin: 1px;
         grid-area: biografia3;
     }
-    
+
     h2 {
         padding: 30px;
         text-align: center;
@@ -1309,7 +1345,7 @@ justify-content: center;
         font-style: normal;
         font-weight: bolder;
     }
-    
+
     .imagenBiografia {
         width: 360px;
         height: auto;
@@ -1320,7 +1356,7 @@ justify-content: center;
         justify-content: center;
         grid-area: biofoto;
     }
-    
+
     .imagenBiografia img {
         width: 300px;
         height: auto;
@@ -1329,7 +1365,7 @@ justify-content: center;
         justify-content: center;
         padding: 40px;
     }
-    
+
     .imagenBiografia2 {
         width: 360px;
         height: 250px;
@@ -1340,7 +1376,7 @@ justify-content: center;
         justify-content: center;
         grid-area: biofoto;
     }
-    
+
     .imagenBiografia2 img {
         width: 360px;
         height: 250px;
@@ -1349,8 +1385,29 @@ justify-content: center;
         justify-content: center;
         padding: 40px;
     }
+
+    .ferrari {
+        width: 360px;
+        height: 250px;
+        margin: auto;
+        padding: auto;
+        border-radius: 50px;
+        display: grid;
+        justify-content: center;
+        grid-area: biofoto;
+    }
+
+    .ferrari img {
+        width: 360px;
+        height: 250px;
+        display: flex;
+        border-radius: 50px;
+        justify-content: center;
+        padding: 40px;
+    }
+
     /* Shop */
-    
+
     .shop {
         background-color: white;
         width: 300px;
@@ -1361,13 +1418,13 @@ justify-content: center;
         padding: 30px;
         align-items: flex-start;
     }
-    
+
     .shop img {
         width: 300px;
         height: 75px;
         align-items: center;
     }
-    
+
     .cuadros {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1380,7 +1437,7 @@ justify-content: center;
         padding: 30px;
         margin: 20px;
     }
-    
+
     .gridPadre {
         background-color: white;
         display: grid;
@@ -1398,7 +1455,7 @@ justify-content: center;
             "cuadroocho"
             "cuadronueve";
     }
-    
+
     .cuadro1 {
         width: 300px;
         height: 300px;
@@ -1408,7 +1465,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: cuadrouno;
     }
-    
+
     .cuadro2 {
         width: 300px;
         height: 300px;
@@ -1418,7 +1475,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: cuadrodos;
     }
-    
+
     .cuadro3 {
         width: 300px;
         height: 300px;
@@ -1428,7 +1485,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: cuadrotres;
     }
-    
+
     .cuadro4 {
         width: 300px;
         height: 300px;
@@ -1438,7 +1495,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: cuadrocuatro;
     }
-    
+
     .cuadro5 {
         width: 300px;
         height: 300px;
@@ -1448,7 +1505,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: cuadrocinco;
     }
-    
+
     .cuadro6 {
         width: 300px;
         height: 300px;
@@ -1458,7 +1515,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: cuadroseis;
     }
-    
+
     .cuadro7 {
         width: 300px;
         height: 300px;
@@ -1468,7 +1525,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: cuadrosiete;
     }
-    
+
     .cuadro8 {
         width: 300px;
         height: 300px;
@@ -1478,7 +1535,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: cuadroocho;
     }
-    
+
     .cuadro9 {
         width: 300px;
         height: 300px;
@@ -1488,7 +1545,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: cuadronueve;
     }
-    
+
     .mercadoPago {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1500,7 +1557,7 @@ justify-content: center;
         list-style-type: none;
         display: grid;
     }
-    
+
     .medidas {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1512,9 +1569,9 @@ justify-content: center;
         list-style-type: none;
         display: grid;
     }
-    
+
     /* Celebrities */
-    
+
     .celebridades {
         background-color: white;
         width: 350px;
@@ -1525,12 +1582,12 @@ justify-content: center;
         padding: 30px;
         align-items: flex-start;
     }
-    
+
     .celebridades img {
         width: 250px;
         height: 150px;
     }
-    
+
     .trabajo {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1543,7 +1600,7 @@ justify-content: center;
         padding: 10px;
         margin: 5px;
     }
-    
+
     .gridPadre2 {
         background-color: white;
         display: grid;
@@ -1564,7 +1621,7 @@ justify-content: center;
             "celeonce"
             "celedoce";
     }
-    
+
     .celebridad1 {
         width: 300px;
         height: 300px;
@@ -1574,7 +1631,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: celeuno;
     }
-    
+
     .celebridad2 {
         width: 300px;
         height: 300px;
@@ -1584,7 +1641,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: celedos;
     }
-    
+
     .celebridad3 {
         width: 300px;
         height: 300px;
@@ -1594,7 +1651,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: celetres;
     }
-    
+
     .celebridad4 {
         width: 300px;
         height: 300px;
@@ -1604,7 +1661,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: celecuatro;
     }
-    
+
     .celebridad5 {
         width: 300px;
         height: 300px;
@@ -1614,7 +1671,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: celecinco;
     }
-    
+
     .celebridad6 {
         width: 300px;
         height: 300px;
@@ -1624,7 +1681,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: celeseis;
     }
-    
+
     .celebridad7 {
         width: 300px;
         height: 300px;
@@ -1634,7 +1691,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: celesiete;
     }
-    
+
     .celebridad8 {
         width: 300px;
         height: 300px;
@@ -1644,7 +1701,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: celeocho;
     }
-    
+
     .celebridad9 {
         width: 300px;
         height: 300px;
@@ -1654,7 +1711,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: celenueve;
     }
-    
+
     .celebridad10 {
         width: 300px;
         height: 300px;
@@ -1664,7 +1721,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: celediez;
     }
-    
+
     .celebridad11 {
         width: 300px;
         height: 300px;
@@ -1674,7 +1731,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: celeonce;
     }
-    
+
     .celebridad12 {
         width: 300px;
         height: 300px;
@@ -1684,7 +1741,7 @@ justify-content: center;
         border-radius: 40px;
         grid-area: celedoce;
     }
-    
+
     .celebridadesp {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1697,9 +1754,9 @@ justify-content: center;
         text-decoration-line: none;
         justify-content: center
     }
-    
+
     /* Contacto */
-    
+
     .contacto {
         background-color: white;
         width: 350px;
@@ -1709,13 +1766,13 @@ justify-content: center;
         margin: auto;
         padding: 10px;
     }
-    
+
     .contacto img {
         width: 300px;
         height: 80px;
         align-items: center;
     }
-    
+
     .ayuda {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1728,7 +1785,7 @@ justify-content: center;
         padding: 10px;
         margin: 10px;
     }
-    
+
     .danielapintando {
         background-color: white;
         display: grid;
@@ -1740,7 +1797,7 @@ justify-content: center;
             "pintura"
             "formu";
     }
-    
+
     .danipintando {
         width: 300px;
         height: auto;
@@ -1751,15 +1808,15 @@ justify-content: center;
         justify-items: center;
         grid-area: pintura;
     }
-    
+
     .mb-3 {
         display: grid;
         justify-content: center;
         grid-area: formu;
     }
-    
+
     .form-label {
-        width: 650px;
+        width: 600px;
     }
 }
 
@@ -2057,6 +2114,25 @@ justify-content: center;
         padding: 10px;
         justify-items: center;
         border-radius: 50px;
+    }
+
+    .ferrari {
+        width: 700px;
+        height: 375px;
+        display: flex;
+        margin: auto;
+        padding: 25px;
+        border-radius: 50px;
+        justify-content: flex-end
+    }
+
+    .ferrari img {
+        width: 600px;
+        height: 800px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 50px;
+        justify-content: center;
     }
 
     /* Shop */
@@ -2442,7 +2518,7 @@ justify-content: center;
         justify-content: center;
         grid-area: formu;
     }
-    
+
     .form-label {
         width: 700px;
     }
@@ -2456,7 +2532,7 @@ justify-content: center;
         justify-content: center;
         grid-area: pintura;
     }
-    
+
     .danielapintando2 {
         display: flex;
         flex-direction: column-reverse
