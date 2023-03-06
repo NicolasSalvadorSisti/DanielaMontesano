@@ -13,8 +13,8 @@ body {
     background-color: white;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    margin: 20px;
-    padding: 10px;
+    margin: auto;
+    padding: auto;
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -222,7 +222,7 @@ p {
     font-family: 'Dosis', sans-serif;
     font-style: normal;
     font-weight: bolder;
-    text-align: left;
+    text-align: center;
     font-size: 15px;
     line-height: 25px;
     letter-spacing: 1px;
@@ -243,7 +243,7 @@ h2 {
     width: 360px;
     height: auto;
     margin: auto;
-    padding: 50px;
+    padding: auto;
     border-radius: 50px;
     display: grid;
     justify-content: center;
@@ -259,6 +259,25 @@ h2 {
     padding: 40px;
 }
 
+.imagenBiografia2 {
+    width: 360px;
+    height: 250px;
+    margin: auto;
+    padding: auto;
+    border-radius: 50px;
+    display: grid;
+    justify-content: center;
+    grid-area: biofoto;
+}
+
+.imagenBiografia2 img {
+    width: 360px;
+    height: 250px;
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    padding: 40px;
+}
 /* Shop */
 
 .shop {
@@ -479,7 +498,7 @@ h2 {
     width: 300px;
     height: 300px;
     display: grid;
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     border-radius: 40px;
     grid-area: celeuno;
@@ -489,7 +508,7 @@ h2 {
     width: 300px;
     height: 300px;
     display: grid;
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     border-radius: 40px;
     grid-area: celedos;
@@ -499,7 +518,7 @@ h2 {
     width: 300px;
     height: 300px;
     display: grid;
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     border-radius: 40px;
     grid-area: celetres;
@@ -509,7 +528,7 @@ h2 {
     width: 300px;
     height: 300px;
     display: grid;
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     border-radius: 40px;
     grid-area: celecuatro;
@@ -519,7 +538,7 @@ h2 {
     width: 300px;
     height: 300px;
     display: grid;
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     border-radius: 40px;
     grid-area: celecinco;
@@ -529,7 +548,7 @@ h2 {
     width: 300px;
     height: 300px;
     display: grid;
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     border-radius: 40px;
     grid-area: celeseis;
@@ -539,7 +558,7 @@ h2 {
     width: 300px;
     height: 300px;
     display: grid;
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     border-radius: 40px;
     grid-area: celesiete;
@@ -549,7 +568,7 @@ h2 {
     width: 300px;
     height: 300px;
     display: grid;
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     border-radius: 40px;
     grid-area: celeocho;
@@ -559,7 +578,7 @@ h2 {
     width: 300px;
     height: 300px;
     display: grid;
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     border-radius: 40px;
     grid-area: celenueve;
@@ -569,7 +588,7 @@ h2 {
     width: 300px;
     height: 300px;
     display: grid;
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     border-radius: 40px;
     grid-area: celediez;
@@ -579,7 +598,7 @@ h2 {
     width: 300px;
     height: 300px;
     display: grid;
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     border-radius: 40px;
     grid-area: celeonce;
@@ -589,7 +608,7 @@ h2 {
     width: 300px;
     height: 300px;
     display: grid;
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     border-radius: 40px;
     grid-area: celedoce;
@@ -1124,13 +1143,6 @@ h2 {
         height: 150px;
     }
 
-    .contenedor {
-        background-color: white;
-        padding: 30px;
-        margin: 15px;
-        display: flex;
-    }
-
     .suTrabajo {
         font-family: 'Ubuntu', sans-serif;
         font-style: normal;
@@ -1149,7 +1161,7 @@ h2 {
         padding: 50px;
         margin: 20px;
         font-family: 'Dosis', sans-serif;
-        text-align: left;
+        text-align: center;
         font-style: normal;
         font-weight: 300;
         font-size: 16px;
@@ -1159,10 +1171,21 @@ h2 {
         color: black;
     }
 
-    .biografia2 {
-        text-indent: 40px;
-        margin: 10px;
+    .biografiados {
+        background-color: white;
+        padding: 50px;
+        margin: 20px;
+        font-family: 'Dosis', sans-serif;
+        text-align: center;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        padding: 20px;
+        color: black;
     }
+
 
     p {
         padding: auto;
@@ -1170,7 +1193,7 @@ h2 {
         font-family: 'Dosis', sans-serif;
         font-style: normal;
         font-weight: bolder;
-        text-align: left;
+        text-align: center;
         font-size: 18px;
         line-height: 25px;
         letter-spacing: 1px;
@@ -1188,7 +1211,7 @@ h2 {
 
     .imagenBiografia {
         width: 700px;
-        height: 1000px;
+        height: 900px;
         display: flex;
         margin: auto;
         padding: 25px;
@@ -1203,23 +1226,23 @@ h2 {
         margin: auto;
         padding: 25px;
         border-radius: 50px;
-        justify-content: center;
+        justify-content: flex-end
     }
 
     .imagenBiografia img {
-        width: 700px;
-        height: 1000px;
-        margin: auto;
-        padding: 25px;
+        width: 600px;
+        height: 800px;
+        margin: 10px;
+        padding: 10px;
         border-radius: 50px;
         justify-content: center;
     }
 
     .imagenBiografia2 img {
         width: 700px;
-        height: 375px;
+        height: auto;
         margin: auto;
-        padding: 25px;
+        padding: 10px;
         justify-items: center;
         border-radius: 50px;
     }
@@ -1533,12 +1556,6 @@ h2 {
         padding: 20px;
         border-radius: 40px;
         grid-area: celeonce;
-    }
-
-    .carouselExample {
-        width: 400px;
-        height: 400px;
-
     }
 
     .celebridad12 {
