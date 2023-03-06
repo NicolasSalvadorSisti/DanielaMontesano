@@ -210,26 +210,14 @@ footer {
 
 .biografia {
     background-color: white;
-    padding: 50px;
-    margin: 20px;
-    font-family: 'Dosis', sans-serif;
-    text-align: left;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 20px;
-    letter-spacing: 1px;
-    padding: 20px;
-    color: black;
-}
-
-.biografia2 {
-    text-indent: 40px;
-    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
 }
 
 p {
-    padding: auto;
+    padding: 10px;
     margin: 15px;
     font-family: 'Dosis', sans-serif;
     font-style: normal;
@@ -240,6 +228,7 @@ p {
     letter-spacing: 1px;
     list-style-type: none;
     margin: 1px;
+    grid-area: biografia3;
 }
 
 h2 {
@@ -254,18 +243,20 @@ h2 {
     width: 360px;
     height: auto;
     margin: auto;
-    padding: 25px;
+    padding: 50px;
     border-radius: 50px;
-    display: flex;
-    justify-content: start;
+    display: grid;
+    justify-content: center;
+    grid-area: biofoto;
 }
 
 .imagenBiografia img {
-    display: flex;
     width: 300px;
     height: auto;
+    display: flex;
     border-radius: 50px;
-    justify-content: start;
+    justify-content: center;
+    padding: 40px;
 }
 
 /* Shop */
