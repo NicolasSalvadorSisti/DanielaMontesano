@@ -280,8 +280,8 @@ h2 {
 }
 
     .ferrari {
-        width: 360px;
-        height: 250px;
+        width: 300px;
+        height: 150px;
         margin: auto;
         padding: auto;
         border-radius: 50px;
@@ -291,8 +291,8 @@ h2 {
     }
 
     .ferrari img {
-        width: 300px;
-        height: auto;
+        width: 250px;
+        height: 150px;
         display: flex;
         border-radius: 50px;
         justify-content: center;
@@ -843,7 +843,7 @@ h2 {
     }
 
     .ferrari {
-        width: 300px;
+        width: 500px;
         height: auto;
         margin: auto;
         padding: 25px;
@@ -852,7 +852,7 @@ h2 {
     }
 
     .ferrari img {
-        width: 300px;
+        width: 500px;
         height: auto;
         margin: auto;
         padding: 25px;
@@ -1387,8 +1387,8 @@ h2 {
     }
 
     .ferrari {
-        width: 360px;
-        height: 250px;
+        width: 700px;
+        height: 350px;
         margin: auto;
         padding: auto;
         border-radius: 50px;
