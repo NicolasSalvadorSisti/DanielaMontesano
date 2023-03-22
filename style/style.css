@@ -2038,7 +2038,7 @@ h2 {
         color: black;
     }
 
-    .biografiados {
+    .biografiaDos {
         background-color: white;
         padding: 50px;
         margin: 20px;
@@ -2053,6 +2053,21 @@ h2 {
         color: black;
     }
 
+    .biografiatres {
+        background-color: white;
+        padding: 50px;
+        margin: 20px;
+        font-family: 'Dosis', sans-serif;
+        text-align: center;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        padding: 20px;
+        color: orange;
+        text-decoration: underline;
+    }
 
     p {
         padding: auto;
@@ -2112,6 +2127,7 @@ h2 {
         padding: 10px;
         justify-items: center;
         border-radius: 50px;
+        
     }
 
     .ferrari {
