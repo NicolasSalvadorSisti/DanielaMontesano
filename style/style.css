@@ -128,7 +128,7 @@ footer {
 
 .montesanoLogo {
     width: 200px;
-    height: 100px;
+    height: auto;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -294,7 +294,6 @@ h2 {
         width: 250px;
         height: 150px;
         display: flex;
-        border-radius: 35px;
         justify-content: center;
         padding: 40px;
     }
@@ -857,7 +856,6 @@ h2 {
         margin: auto;
         padding: 25px;
         justify-items: center;
-        border-radius: 20px;
     }
 
     /* Art */
@@ -1235,7 +1233,7 @@ h2 {
 
     .montesanoLogo {
         width: 200px;
-        height: 100px;
+        height: auto;
         margin: auto;
         display: flex;
         justify-content: center;
@@ -1391,7 +1389,7 @@ h2 {
         height: 350px;
         margin: auto;
         padding: auto;
-        border-radius: 20px;
+        border-radius: 45px;
         display: grid;
         justify-content: center;
         grid-area: biofoto;
@@ -1401,7 +1399,6 @@ h2 {
         width: 360px;
         height: 250px;
         display: flex;
-        border-radius: 20px;
         justify-content: center;
         padding: 40px;
     }
@@ -1871,12 +1868,13 @@ h2 {
         justify-content: space-around;
         align-items: center;
         margin: auto;
-        padding: 30px;
+        padding: 100px;
     }
 
     .titulo1 img {
         width: 600px;
         height: 200px;
+        padding: 30px;
     }
 
     h1 {
@@ -1888,7 +1886,7 @@ h2 {
         line-height: 20px;
         letter-spacing: 1px;
         list-style-type: none;
-        padding: 100px;
+        padding: 500px;
         margin: auto;
     }
 
@@ -1944,7 +1942,7 @@ h2 {
 
     .montesanoLogo {
         width: 300px;
-        height: 300px;
+        height: auto;
         margin: auto;
         display: flex;
         justify-content: center;
@@ -2122,7 +2120,7 @@ h2 {
         display: flex;
         margin: auto;
         padding: 25px;
-        border-radius: 20px;
+        border-radius: 45px;
         justify-content: flex-end
     }
 
@@ -2131,7 +2129,6 @@ h2 {
         height: 800px;
         margin: 10px;
         padding: 10px;
-        border-radius: 35px;
         justify-content: center;
     }
 
