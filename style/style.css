@@ -52,12 +52,12 @@ ul li {
 .titulo1 {
     background-color: white;
     width: 360px;
-    height: 150px;
+    height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: auto;
-    padding: 50px;
+
 }
 
 .titulo1 img {
