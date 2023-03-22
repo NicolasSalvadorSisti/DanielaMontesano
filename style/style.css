@@ -128,7 +128,7 @@ footer {
 
 .montesanoLogo {
     width: 200px;
-    height: auto;
+    height: 100px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -1233,7 +1233,7 @@ h2 {
 
     .montesanoLogo {
         width: 200px;
-        height: auto;
+        height: 100px;
         margin: auto;
         display: flex;
         justify-content: center;
@@ -1389,7 +1389,7 @@ h2 {
         height: 350px;
         margin: auto;
         padding: auto;
-        border-radius: 45px;
+        border-radius: 20px;
         display: grid;
         justify-content: center;
         grid-area: biofoto;
@@ -1863,18 +1863,17 @@ h2 {
     .titulo1 {
         background-color: white;
         width: 500px;
-        height: 100px;
+        height: 200px;
         display: flex;
         justify-content: space-around;
         align-items: center;
         margin: auto;
-        padding: 100px;
+        padding: 30px;
     }
 
     .titulo1 img {
-        width: 600px;
-        height: 200px;
-        padding: 30px;
+        width: 500px;
+        height: 150px;
     }
 
     h1 {
@@ -1886,7 +1885,6 @@ h2 {
         line-height: 20px;
         letter-spacing: 1px;
         list-style-type: none;
-        padding: 500px;
         margin: auto;
     }
 
@@ -1899,7 +1897,7 @@ h2 {
         line-height: 20px;
         letter-spacing: 1px;
         list-style-type: none;
-        padding: 100px;
+        padding: 50px;
         margin: 20px;
     }
 
@@ -2038,7 +2036,7 @@ h2 {
         color: black;
     }
 
-    .biografiaDos {
+    .biografiados {
         background-color: white;
         padding: 50px;
         margin: 20px;
@@ -2068,6 +2066,7 @@ h2 {
         color: orange;
         text-decoration: underline;
     }
+
 
     p {
         padding: auto;
@@ -2127,7 +2126,6 @@ h2 {
         padding: 10px;
         justify-items: center;
         border-radius: 50px;
-        
     }
 
     .ferrari {
@@ -2136,7 +2134,7 @@ h2 {
         display: flex;
         margin: auto;
         padding: 25px;
-        border-radius: 45px;
+        border-radius: 50px;
         justify-content: flex-end
     }
 
